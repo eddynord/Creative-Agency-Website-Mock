@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+}
+.navigation {
+    display: none;
+}
+
+.navbar {
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.menu {
+    position: absolute; 
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu .fas {
+    color: #ffffff;
+}
+  
+  
+
+.open_menu,
+.close_menu {
+    cursor: pointer;
+    background-color:#f60f20 ;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 0;
+    z-index: 20;
+    position: fixed;
+}
+   
+
+.close_menu {
+    display: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content img {
+    position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 110%;
+}
+    
+
+.desc {
+    width: 100%;
+    max-width: 575px;
+    padding-left: 100px;
+    padding-top: 250px;
+    line-height: 1.9;
+    
+}
+
+.para {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.para p {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #f60f20;
+    padding: 15px 40px;
+}
+
+.btn a {
+    color: #ffffff;
+    font-size: 24p;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    
+}
+
+.social {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.social img {
+    width: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nav-links a {
+    color: #111;
+    font-size: 32px;
+}
+ 
+    
