@@ -7,7 +7,7 @@ body {
     color: #111;
 }
 .navigation {
-    display: none;
+    /* display: none; */
 }
 
 .navbar {
@@ -160,6 +160,54 @@ body {
     border: thin solid #111;
     /* border-radius: 50px; */
     width: 200px;
+}
+
+/* SERVICES CONTENT */
+
+.services_desc,
+.work_desc {
+    width: 100%;
+    max-width: 1350px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.grid {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 100px;
+}
+    
+    
+
+.g-col-6 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.g-col-6 img{
+    width: 100px;
+    margin:0 auto;
+    
+}
+
+
+/* WORK CONTENT */
+
+.g-col-md-4 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.g-col-md-4 img {
+    width: 300px;
 }
 
     
