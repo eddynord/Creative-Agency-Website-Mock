@@ -169,7 +169,7 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 400px);
     align-items: center;
     gap: 100px;
 }
@@ -180,7 +180,18 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 40px 50px;
     
+}
+    
+    
+    
+
+.g-col-6:hover {
+    background-color: #f8f8f8;
+
+    box-shadow: 1px 1px #ececec;
+   
 }
 
 .g-col-6 img{

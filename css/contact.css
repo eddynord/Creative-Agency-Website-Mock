@@ -140,6 +140,11 @@ button {
 
 .contacts a {
     text-decoration: underline;
+    color: #111;
+}
+
+.contacts strong {
+    color: #1b206e;
 }
 
 
