@@ -24,7 +24,7 @@ body {
 }
 
 .menu {
-    position: absolute; 
+position: absolute; 
   top: 0;
   right: 0;
   width: 60px;
@@ -52,9 +52,6 @@ body {
 }
    
 
-.close_menu {
-    display: none;
-}
 
 .content {
     display: flex;
@@ -92,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 40px 50px;
+    padding-top: 40px;
     
 }
     

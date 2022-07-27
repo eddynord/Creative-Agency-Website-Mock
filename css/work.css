@@ -6,9 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #111;
 }
-.navigation {
-    /* display: none; */
-}
 
 .navbar {
     box-shadow: none;
@@ -54,9 +51,7 @@ body {
 }
    
 
-.close_menu {
-    display: none;
-}
+
 
 
 
@@ -64,13 +59,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    
-    
-    
 }
-
-
 
 
 .work_desc {

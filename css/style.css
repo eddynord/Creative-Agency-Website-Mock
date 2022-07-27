@@ -6,8 +6,9 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #111;
 }
-.menu-lightbox {
-    display: none;
+
+.open_menu {
+    display: block;
 }
 
 .navbar {
@@ -23,6 +24,10 @@ body {
     font-weight: 700;
     padding-left: 100px;
     padding-top: 40px;
+}
+
+.menu-lightbox {
+    transition: all 1s ease-in-out;
 }
 
 .menu {
@@ -54,9 +59,9 @@ body {
 }
    
 
-.close_menu {
+/* .close_menu {
     display: none;
-}
+} */
 
 .content {
     display: flex;
