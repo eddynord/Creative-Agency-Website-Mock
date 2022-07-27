@@ -203,6 +203,166 @@ body {
     width: 100px;
     margin:0 auto;
 }
+
+/* MEDIA QUERY */
+
+@media (max-width:1230px) {
+    .hero-image {
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 250px;
+        padding-left: 0;
+        line-height: 1.9;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .content {
+       
+        
+        align-items: center;
+        width: 100%;
+        max-width: 668px;
+        margin: auto;
+        
+    }
+
+    .hero-image{
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 575px;
+        margin: auto;
+        padding-top: 250px;
+        padding-left: 0;
+        line-height: 1.9;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+    
+}
+
+
+@media (max-width:600px) {
+    .hero-image {
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 575px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-top: 250px;
+        line-height: 1.9;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:576px) {
+    .hero-image {
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 475px;
+        margin: 0 auto;
+        padding-top: 250px;
+        padding-left: 0;
+        line-height: 1.9;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:480px) {
+    .hero-image {
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+        padding-top: 250px;
+        padding-left: 0;
+        line-height: 1.9;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:320px) {
+    .hero-image {
+        display: none;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 250px;
+        padding-left: 0;
+        line-height: 1.9;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+    
+    
+    
     
 
 
