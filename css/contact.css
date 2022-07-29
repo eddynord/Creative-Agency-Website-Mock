@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 
 }
 
@@ -82,6 +83,7 @@ body {
     max-width: 1500px;
     margin: auto;
     padding-top: 80px;
+    
 }
 
 .contact-title {
@@ -91,7 +93,7 @@ body {
 .form {
     width: 100%;
     max-width: 1200px;
-    
+    margin: auto;
     padding: 50px 35px 40px;
     background-color:#f9f9f9;
     border-radius: 5px;
@@ -103,8 +105,8 @@ body {
     gap: 20px;
     padding-bottom: 20px;
     
-    
 } 
+    
 
 .info-contact .form-outline {
     width: 100%;
@@ -167,6 +169,353 @@ button {
     flex-direction: column;
     
 }
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1700px) {
+    .contact-form {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        
+    } 
+
+    .contact_desc {
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 80px;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    
+}
+
+
+@media (max-width:1040px) {
+    .contact-form {
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        
+    } 
+
+    .contact_desc {
+        width: 100%;
+        max-width: 940px;
+        margin: auto;
+        padding-top: 80px;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    
+}
+
+@media (max-width: 976px) {
+    .contact-form {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        
+    } 
+
+    .form {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .message {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        
+        
+    }
+
+    .contacts, .contact_desc {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    
+}
+
+
+@media (max-width: 667px) {
+    .contact-form {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        
+    } 
+
+    .form {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .message {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        
+        
+    }
+
+    .contacts, .contact_desc {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+
+    .logo {
+        padding-top: 0px;
+    }
+    .contact-form {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        
+    } 
+
+    .form {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .message {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        
+        
+    }
+
+    .contacts, .contact_desc {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .logo {
+        padding-top: 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        
+    } 
+
+    .form {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .message {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        
+        
+    }
+
+    .contacts, .contact_desc {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .logo {
+        padding-top: 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    .info-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        
+    } 
+
+    .form {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .message {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        
+        
+    }
+
+    .contacts, .contact_desc {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+}
+    
 
 
 

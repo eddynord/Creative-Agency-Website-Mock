@@ -290,6 +290,9 @@ position: absolute;
 }
 
 @media (max-width:600px) {
+    .services-title h1 {
+        font-size: 28px;
+    }
     .services_desc {
         width: 100%;
         max-width: 600px;
@@ -325,6 +328,10 @@ position: absolute;
 }
 
 @media (max-width:480px) {
+
+    .services-title h1 {
+        font-size: 22px;
+    }
     .services_desc {
         width: 100%;
         max-width: 480px;
@@ -360,6 +367,10 @@ position: absolute;
 }
 
 @media (max-width:320px) {
+    .services-title h1 {
+        font-size: 18px;
+    }
+
     .services_desc {
         width: 100%;
         max-width: 320px;
