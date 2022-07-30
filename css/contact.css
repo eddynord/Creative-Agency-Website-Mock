@@ -26,6 +26,87 @@ body {
     padding-top: 40px;
 }
 
+.menu-lightbox {
+    /* transition: all 2s ease-in-out; */
+    display: none;
+
+}
+
+.menu-links.active {
+    /* transition: all 2s ease-in-out; */
+    animation-duration: 1.5s;
+  
+    animation-name: fadein;
+    
+}
+
+.navbar.active {
+    animation-duration: 1.5s;
+    
+    animation-name: fadein; 
+}
+
+
+
+@-webkit-keyframes fadein{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    
+    
+    
+}
+    
+
+.social {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-left: 100px;
+    
+}
+
+.social img {
+    width: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+    
+.nav-links a {
+    color: #111;
+    font-size: 32px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #f60f20;
+    font-weight: 100;
+}
+
 .menu {
     position: absolute; 
   top: 0;

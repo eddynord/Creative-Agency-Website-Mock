@@ -1,17 +1,23 @@
 const openMenu = document.querySelector('.open_menu');
-const closeMenu = document.querySelector('.close');
+const closeMenu = document.querySelector('.close_menu');
 const menu = document.querySelector('.menu-lightbox');
 const indexPage = document.querySelector('.navigation');
+const contactPage = document.querySelector('.wrapper-container')
 
 
 document.querySelector('.open_menu').addEventListener("click", menuOpen);
 
 function menuOpen() {
-    document.querySelector('.menu-lightbox').style.display = 'block';
-    document.querySelector('.navigation').style.display = 'none';
-    document.querySelector('.open_menu').style.display = 'none';
-    document.querySelector('.close_menu').style.display = 'block';
+    menu.style.display = 'block';
+    indexPage.style.display = 'none';
+    openMenu.style.display = 'none';
+    contactPage.style.display = 'none';
+    closeMenu.style.display = 'block';
+
+    menu.classList.add('active');
 }
+
+
 
 
 
