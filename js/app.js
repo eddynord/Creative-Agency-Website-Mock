@@ -11,8 +11,9 @@ function menuOpen() {
     menu.style.display = 'block';
     indexPage.style.display = 'none';
     openMenu.style.display = 'none';
-    contactPage.style.display = 'none';
     closeMenu.style.display = 'block';
+    contactPage.style.display = 'none';
+    
 
     menu.classList.add('active');
 }
