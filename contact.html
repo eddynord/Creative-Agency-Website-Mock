@@ -33,34 +33,59 @@
             </div>
     
             <div class="contact-form">
-                <form class="form" id="form-field" action="index.html">
+                <form class="form" id="form-field" action="#" method="GET">
                     <div class="info-contact">
                         <div class="form-outline">
-                            <input type="text" id="form12" class="form-control" required />
+                            <input type="text" id="firstname" class="form-control"  />
                             <label class="form-label" for="form12">First Name</label>
+                                <div class="error">
+                                    <small id="errorMessage">Please enter your first name</small>
+                                    <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                                </div>
                         </div>
+                            
         
                         <div class="form-outline">
-                            <input type="text" id="form12" class="form-control" required/>
+                            <input type="text" id="lastname" class="form-control" />
                             <label class="form-label" for="form12">Last Name</label>
+                            <div class="error">
+                                <small id="errorMessage">Please enter your last name</small>
+                                <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                            </div>
                         </div>
+
         
                         <div class="form-outline">
-                            <input type="email" id="typeEmail" class="form-control" required />
+                            <input type="email" id="email" class="form-control"  />
                             <label class="form-label" for="typeEmail">Email</label>
+                            <div class="error">
+                                <small id="errorMessage">Please enter a valid Email</small>
+                                <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                            </div>
                         </div>
+
         
                         <div class="form-outline">
-                            <input type="text" id="typeText" class="form-control" required />
+                            <input type="text" id="subject" class="form-control" />
                             <label class="form-label" for="typeText">Subject</label>
+                            <div class="error">
+                                <small id="errorMessage">Please enter a subject</small>
+                                <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                            </div>
                         </div>
+
                     </div>
                     
                     <div class="message">
                         <div class="form-outline">
-                            <textarea class="form-control" id="textAreaExample" rows="4" required></textarea>
+                            <textarea class="form-control" id="message" rows="4" ></textarea>
                             <label class="form-label" for="textAreaExample">Message</label>
+                            <div class="error">
+                                <small id="errorMessage">Would you like to leave a message?</small>
+                                <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                            </div>
                         </div>
+
                     </div>
                     
     

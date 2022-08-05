@@ -149,6 +149,37 @@ body {
 }
 
 
+small {
+    color:#f60f20;
+    padding-left: 12px;
+    
+    
+}
+
+#errorMessage, #error_icon {
+    display: none;
+}
+
+
+.fas {
+    color: #f60f20;
+    padding-right: 12px;
+    
+    
+}
+
+.error {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* display: none; */
+}
+
+
+    
+
+
 /* CONTACT SECTION */
 
 .contact-form {
