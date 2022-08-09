@@ -6,8 +6,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #111;
 }
-.navigation {
-    /* display: none; */
+.contact-container {
+    display: block;
 }
 
 .navbar {
@@ -26,8 +26,10 @@ body {
     padding-top: 40px;
 }
 
+/* MENU SECTION */
+
 .menu-lightbox {
-    /* transition: all 2s ease-in-out; */
+    transition: all 2s ease-in-out; 
     display: none;
 
 }
@@ -57,11 +59,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-
-    
-    
-    
 }
     
 
@@ -121,8 +118,6 @@ body {
 .menu .fas {
     color: #ffffff;
 }
-  
-
 
 .open_menu,
 .close_menu {

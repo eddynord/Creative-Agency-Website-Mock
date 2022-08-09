@@ -2,7 +2,7 @@ const openMenu = document.querySelector('.open_menu');
 const closeMenu = document.querySelector('.close_menu');
 const menu = document.querySelector('.menu-lightbox');
 const indexPage = document.querySelector('.navigation');
-const contactPage = document.querySelector('.wrapper-container');
+const contactPage = document.querySelector('.contact-container');
 const servicesPage = document.querySelector('.wrapper');
 const form = document.querySelector('.form');
 const firstName = document.getElementById('firstname');
@@ -20,41 +20,10 @@ document.querySelector('.open_menu').addEventListener("click", menuOpen);
 
 function menuOpen() {
     menu.style.display = 'block';
-    indexPage.style.display = 'none';
+    contactPage.style.display = 'none';
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
-    
-    // servicesPage.style.display = 'none';
     menu.classList.add('active');
+    
+    
 }
-
-
-// ERRORS
-
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     submitForm();
-// });
-
-// function submitForm() {
-//     if(email.value === '') {
-//         errorMessage.style.display = ' block'
-//         errorIcon.style.display = 'block'
-//     } else{
-//         e.preventDefault()
-//     } 
-// }
-
-
-    
-    
-    
-
-
-
-
-
-
-
-
-
