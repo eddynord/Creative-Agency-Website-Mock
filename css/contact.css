@@ -151,9 +151,7 @@ small {
     
 }
 
-#errorMessage, #error_icon {
-    display: none;
-}
+
 
 
 .fas {
@@ -164,11 +162,23 @@ small {
 }
 
 .error {
+    display: none;
+}
+
+.errors {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* display: none; */
+}
+   
+   
+.success {
+    text-align: center;
+    color: green;
+    padding-top: 50px;
+    display: none;
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -176,6 +186,8 @@ small {
 
 
 /* CONTACT SECTION */
+
+
 
 .contact-form {
     width: 100%;

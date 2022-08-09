@@ -9,10 +9,10 @@ const firstName = document.getElementById('firstname');
 const lastName = document.getElementById('lastname');
 const email = document.getElementById('email');
 const subjectLine = document.getElementById('subject');
-const messageArea = document.getElementById('message')
-const submitBtn = document.getElementById('btn')
-const errorMessage = document.getElementById('errorMessage');
-const errorIcon = document.querySelector('.fas')
+const messageArea = document.getElementById('message');
+const submitBtn = document.getElementById('btn');
+const formActive = document.querySelector('.form')
+
 
 
 
@@ -27,3 +27,24 @@ function menuOpen() {
     
     
 }
+
+
+// ERRORS
+
+const error = document.querySelector('error')
+const errorMessage = document.getElementById('errorMessage');
+const errorIcon = document.querySelector('.fas')
+const success = document.querySelector('.success')
+
+
+form.addEventListener('submit', e => {
+    if(firstName.value != '' && lastName.value != '' && email.value != '' && subjectLine.value != '' && messageArea.value != '') {
+        success.style.display = ' block' 
+        setTimeout(() => {
+            window.location.href = 'index.html'
+        } , 3000)
+    }
+          
+          
+});
+

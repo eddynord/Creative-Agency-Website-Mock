@@ -33,22 +33,25 @@
             </div>
     
             <div class="contact-form">
-                <form class="form" id="form-field" action="#" method="GET">
+                <form class="form " id="form-field" action="index.html" method="GET">
                     <div class="info-contact">
                         <div class="form-outline">
-                            <input type="text" id="firstname" class="form-control"  />
+                            <input type="text" id="firstname" class="form-control" required  />
                             <label class="form-label" for="form12">First Name</label>
-                                <div class="error">
-                                    <small id="errorMessage">Please enter your first name</small>
-                                    <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                                <div class="error active">
+                                    <div class="errors">
+                                        <small id="errorMessage">Please enter your first name</small>
+                                        <i class="fas fa-exclamation-triangle" id="error_icon"></i>
+                                    </div>
+                                    
                                 </div>
                         </div>
                             
         
                         <div class="form-outline">
-                            <input type="text" id="lastname" class="form-control" />
+                            <input type="text" id="lastname" class="form-control" required />
                             <label class="form-label" for="form12">Last Name</label>
-                            <div class="error">
+                            <div class="error active">
                                 <small id="errorMessage">Please enter your last name</small>
                                 <i class="fas fa-exclamation-triangle" id="error_icon"></i>
                             </div>
@@ -56,9 +59,9 @@
 
         
                         <div class="form-outline">
-                            <input type="email" id="email" class="form-control"  />
+                            <input type="email" id="email" class="form-control" required />
                             <label class="form-label" for="typeEmail">Email</label>
-                            <div class="error">
+                            <div class="error active">
                                 <small id="errorMessage">Please enter a valid Email</small>
                                 <i class="fas fa-exclamation-triangle" id="error_icon"></i>
                             </div>
@@ -66,9 +69,9 @@
 
         
                         <div class="form-outline">
-                            <input type="text" id="subject" class="form-control" />
+                            <input type="text" id="subject" class="form-control" required />
                             <label class="form-label" for="typeText">Subject</label>
-                            <div class="error">
+                            <div class="error active">
                                 <small id="errorMessage">Please enter a subject</small>
                                 <i class="fas fa-exclamation-triangle" id="error_icon"></i>
                             </div>
@@ -80,16 +83,16 @@
                         <div class="form-outline">
                             <textarea class="form-control" id="message" rows="4" ></textarea>
                             <label class="form-label" for="textAreaExample">Message</label>
-                            <div class="error">
+                            <div class="error active">
                                 <small id="errorMessage">Would you like to leave a message?</small>
                                 <i class="fas fa-exclamation-triangle" id="error_icon"></i>
                             </div>
                         </div>
 
                     </div>
-                    
-    
                     <button type="submit" class="btn btn-outline-primary" data-mdb-ripple-color="dark">SEND</button>
+                    
+                    <h3 class="success">Message Sent</h3>
                 </form>
     
                 <div class="contacts">
