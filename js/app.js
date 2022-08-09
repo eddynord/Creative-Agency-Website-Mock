@@ -29,21 +29,7 @@ function menuOpen() {
 }
 
 
-// ERRORS
 
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     submitForm();
-// });
-
-// function submitForm() {
-//     if(email.value === '') {
-//         errorMessage.style.display = ' block'
-//         errorIcon.style.display = 'block'
-//     } else{
-//         e.preventDefault()
-//     } 
-// }
 
 
     
