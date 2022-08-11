@@ -40,7 +40,7 @@ const success = document.querySelector('.success')
 form.addEventListener('submit', e => {
     if(firstName.value != '' && lastName.value != '' && email.value != '' && subjectLine.value != '' && messageArea.value != '') {
         success.style.display = ' block' 
-        setTimeout(() => {
+        success.setTimeout(() => {
             window.location.href = 'index.html'
         } , 3000)
     }

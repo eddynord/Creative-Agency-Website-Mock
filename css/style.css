@@ -7,6 +7,10 @@ body {
     color: #111;
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .open_menu {
     display: block;
 }
