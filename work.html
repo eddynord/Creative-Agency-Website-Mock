@@ -17,12 +17,54 @@
       <div class="work-content">
         <div class="navigation">
           <nav class="navbar">
-              <div class="logo">Creative Agency</div>
-              <div class="menu active">
-                  <div class="open_menu" onclick="menuOpen()"><a href="#"><i class="fas fa-bars"></i></a></div>
-                  <!-- <div class="close_menu"><a href="#"><i class="fas fa-times"></i></a></div> -->
-              </div>
-          </nav>
+            
+            <div class="logo">Creative Agency</div>
+            <div class="menu active" style="z-index: 1;">
+              <span style="
+                          font-size:30px;
+                          cursor:pointer;
+                          background-color: #f60f20;
+                          padding: 0 10px;
+                          /* margin-right: 25px; */
+                          color: rgb(255, 255, 255);
+                          " 
+                      onclick="openNav()">&#9776;
+                </span>
+              
+              <nav class="navbar navbar-light navbar-1 white">
+                <div id="mySidenav" class="sidenav">
+    
+                  <nav class="navbar active">
+                    <div class="logo">Creative Agency</div>
+                    <div class="menu active">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                  </nav>
+            
+                  <div class="menu-links active">
+                    <div class="social">
+                      <a href="#"><img src="/img/social_icons/facebook.png" alt="#"></a>
+                      <a href="#"><img src="/img/social_icons/twitter.png" alt="#"></a>
+                      <a href="#"><img src="/img/social_icons/instagram.png" alt="#"></a>
+                      <a href="#" class="email"><img src="/img/email.png" alt="#"></a>
+                    </div>
+            
+                    <div class="nav-links">
+                      <a href="index.html">Home</a>
+                      <a href="services.html">Services</a>
+                      <a href="work.html">Work</a>
+                      <a href="contact.html">Contact</a>
+                    </div>
+                  </div>
+    
+                </div>
+                <!-- Collapsible content -->
+    
+              </nav>
+              <!--/.Navbar-->
+            </div>
+          
+        </nav>
       </div>
 
       <div class="work_desc">
@@ -35,95 +77,352 @@
       </div>
 
       <div class="work">
+        <div class="lightbox">
+
           <div class="grid work">
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item1.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">Launch</a></div>
                 </div>
               </div>
                 
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item2.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item3.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item4.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal4">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item5.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal5">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item6.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal6">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item7.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal7">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item8.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal8">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item9.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal9">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item10.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal10">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item11.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal11">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item12.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal12">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item13.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal13">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item14.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal14">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4"><img src="/img/portfolio_img/portfolio-item15.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal15">Launch</a></div>
                 </div>
               </div>
               <div class="g-col-6 g-col-md-4" id="grid-solo"><img src="/img/portfolio_img/portfolio-item16.jpg" alt="Design">
                 <div class="hover">
-                  <div class="hover-text">Launch</div>
+                  <div class="hover-text"><a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal16">Launch</a></div>
                 </div>
               </div>
           </div>
+        </div>
 
           
       </div>
 
       </div>
         
+      <!-- MODAL FOR IMAGES -->
+      <!-- Section: Modals -->
+  <section class="center-modal">
+    <!-- Modal 1 -->
+    <div
+      class="modal fade "
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal5"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal6"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal7"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item7.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal8"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item8.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal9"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item9.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal10"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal11"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item11.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal12"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal13"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item13.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal14"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item14.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal15"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item15.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal16"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="ratio ratio-4x3">
+            <img class="img-fluid" src="/img/portfolio_img/portfolio-item16.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </section>
+  <!-- Section: Modals -->
+</section>
+
+      <!-- MODAL ENDS HERE -->
 
         
       <!-- SERVICES ENDS HERE  -->

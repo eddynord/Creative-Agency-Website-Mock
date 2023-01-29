@@ -15,6 +15,45 @@ body {
 
 }
 
+/* SIDENAV */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.2s;
+
+}
+
+.sidenav a:hover {
+    color: #f60f20;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* SIDENAV ENDS HERE */
+
 .logo {
     font-size: 28px;
     font-weight: 700;
@@ -38,23 +77,6 @@ body {
 }
   
   
-
-.open_menu,
-.close_menu {
-    cursor: pointer;
-    background-color:#f60f20 ;
-    padding: 15px 30px;
-    text-decoration: none;
-    border: 0;
-    z-index: 20;
-    position: fixed;
-}
-   
-
-
-
-
-
 .menu-links {
     display: flex;
     flex-direction: row;
@@ -78,6 +100,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
+    
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -136,6 +159,10 @@ body {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  .hover-text a {
+    color: rgb(255, 255, 255);
+  }
     
 .g-col-6 {
     display: flex;
@@ -180,6 +207,20 @@ body {
     animation-duration: 1.5s;
     
     animation-name: fadein; 
+}
+
+/* MODAL */
+
+.modal-content{
+    margin: 50% auto;
+}
+
+.modal.fade {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 
 

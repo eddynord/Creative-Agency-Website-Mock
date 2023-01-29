@@ -16,13 +16,10 @@ const errorIcon = document.querySelector('.fas')
 
 
 
-document.querySelector('.open_menu').addEventListener("click", menuOpen);
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
 
-function menuOpen() {
-    menu.style.display = 'block';
-    servicesPage.style.display = 'none';
-    openMenu.style.display = 'none';
-    closeMenu.style.display = 'block';
-    menu.classList.add('active');
-    
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }

@@ -17,11 +17,53 @@
         <div class="contact-container">
             <div class="navigation">
                 <nav class="navbar">
+            
                     <div class="logo">Creative Agency</div>
-                    <div class="menu active">
-                        <div class="open_menu" onclick="menuOpen()"><a href="#"><i class="fas fa-bars"></i></a></div>
+                    <div class="menu active" style="z-index: 1;">
+                      <span style="
+                                  font-size:30px;
+                                  cursor:pointer;
+                                  background-color: #f60f20;
+                                  padding: 0 10px;
+                                  /* margin-right: 25px; */
+                                  color: rgb(255, 255, 255);
+                                  " 
+                              onclick="openNav()">&#9776;
+                        </span>
+                      
+                      <nav class="navbar navbar-light navbar-1 white">
+                        <div id="mySidenav" class="sidenav">
+            
+                          <nav class="navbar active">
+                            <div class="logo">Creative Agency</div>
+                            <div class="menu active">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            </div>
+                          </nav>
+                    
+                          <div class="menu-links active">
+                            <div class="social">
+                              <a href="#"><img src="/img/social_icons/facebook.png" alt="#"></a>
+                              <a href="#"><img src="/img/social_icons/twitter.png" alt="#"></a>
+                              <a href="#"><img src="/img/social_icons/instagram.png" alt="#"></a>
+                              <a href="#" class="email"><img src="/img/email.png" alt="#"></a>
+                            </div>
+                    
+                            <div class="nav-links">
+                              <a href="index.html">Home</a>
+                              <a href="services.html">Services</a>
+                              <a href="work.html">Work</a>
+                              <a href="contact.html">Contact</a>
+                            </div>
+                          </div>
+            
+                        </div>
+                        <!-- Collapsible content -->
+            
+                      </nav>
+                      <!--/.Navbar-->
                     </div>
-                        
+                  
                 </nav>
             </div>
     
@@ -33,7 +75,7 @@
             </div>
     
             <div class="contact-form">
-                <form class="form " id="form-field" action="/" method="GET">
+                <form class="form " id="form-field" action="#" >
                     <div class="info-contact">
                         <div class="form-outline">
                             <input type="text" id="firstname" class="form-control" required  />

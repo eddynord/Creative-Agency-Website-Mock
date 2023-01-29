@@ -18,14 +18,12 @@ const formActive = document.querySelector('.form')
 
 document.querySelector('.open_menu').addEventListener("click", menuOpen);
 
-function menuOpen() {
-    menu.style.display = 'block';
-    contactPage.style.display = 'none';
-    openMenu.style.display = 'none';
-    closeMenu.style.display = 'block';
-    menu.classList.add('active');
-    
-    
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 
 
@@ -38,13 +36,15 @@ const success = document.querySelector('.success')
 
 
 form.addEventListener('submit', e => {
-    if(firstName.value != '' && lastName.value != '' && email.value != '' && subjectLine.value != '' && messageArea.value != '') {
-        success.style.display = ' block' 
-        success.setTimeout(() => {
-            window.location.href = 'index.html'
-        } , 3000)
+    if (firstName.value != '' && lastName.value != '' && email.value != '' && subjectLine.value != '' && messageArea.value != '') {
+        success.style.visibility = 'visible'
+
+        setTimeout(() => {
+            success.style.visibility = 'hidden'
+            // window.location.href = 'index.html'
+        }, 3000)
     }
-          
-          
+
+
 });
 

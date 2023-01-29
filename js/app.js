@@ -16,17 +16,25 @@ const errorIcon = document.querySelector('.fas')
 
 
 
-document.querySelector('.open_menu').addEventListener("click", menuOpen);
+// document.querySelector('.open_menu').addEventListener("click", menuOpen);
 
-function menuOpen() {
-    menu.style.display = 'block';
-    indexPage.style.display = 'none';
-    openMenu.style.display = 'none';
-    closeMenu.style.display = 'block';
+// function menuOpen() {
+//     menu.style.display = 'block';
+//     indexPage.style.display = 'none';
+//     openMenu.style.display = 'none';
+//     closeMenu.style.display = 'block';
     
-    // servicesPage.style.display = 'none';
-    menu.classList.add('active');
-}
+//     // servicesPage.style.display = 'none';
+//     menu.classList.add('active');
+// }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
 
 
 

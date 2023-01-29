@@ -17,13 +17,10 @@ const workPage = document.querySelector('.work-content')
 
 
 
-document.querySelector('.open_menu').addEventListener("click", menuOpen);
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
 
-function menuOpen() {
-    menu.style.display = 'block';
-    workPage.style.display = 'none';
-    openMenu.style.display = 'none';
-    closeMenu.style.display = 'block';
-    menu.classList.add('active');
-    
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
